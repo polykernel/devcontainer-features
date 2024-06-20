@@ -1,0 +1,34 @@
+{
+  "ubuntu-noble-version-latest": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+    "features": {
+      "macaulay2": {
+        "version": "latest"
+      }
+    }
+  },
+  "ubuntu-jammy-version-latest": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "features": {
+      "macaulay2": {
+        "version": "latest"
+      }
+    }
+  },
+  "debian-bullseye-version-latest": {
+    "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+    "features": {
+      "macaulay2": {
+        "version": "latest"
+      }
+    }
+  },
+  "debian-bookworm-version-latest": {
+    "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+    "features": {
+      "macaulay2": {
+        "version": "latest"
+      }
+    }
+  }
+}
